@@ -14,7 +14,7 @@ public class GameService {
     String query;
     String url = "jdbc:postgresql://localhost:5432/postgres";
     String user = "postgres";
-    String pass = "shdi1379"; //set your password
+    String pass = ""; //set your password
     public GameService(){
         try {
             this.connection = DriverManager.getConnection(url, user, pass);
