@@ -16,7 +16,7 @@ public class UserService {
     String query;
     String url = "jdbc:postgresql://localhost:5432/postgres";
     String user = "postgres";
-    String pass = ""; // todo remove password
+    String pass = "";
     public UserService() {
         try {
             this.connection = DriverManager.getConnection(url, user, pass);

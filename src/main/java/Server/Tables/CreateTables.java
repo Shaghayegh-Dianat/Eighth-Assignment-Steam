@@ -11,7 +11,7 @@ public class CreateTables {
     public String query;
     String url = "jdbc:postgresql://localhost:5432/postgres";
     String user = "postgres";
-    String pass = "shdi1379"; // todo remove password
+    String pass = "";
 
     public CreateTables() {
         try {
